@@ -16,7 +16,10 @@ class Person {
     }
     //method
     public function printName() {
-        return $this->name . ' ' . $this->surname;
+        // if (! is_int($_salary)) {
+        //     throw new Exception('Valore non valido');
+        // }
+        return $this->name . ' ' . $this->surname . ' €' . $this->salary;
     }
 }
 
