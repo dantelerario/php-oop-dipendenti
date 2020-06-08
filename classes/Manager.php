@@ -8,3 +8,6 @@ class Manager extends Person {
         $this->role = $_role;
     }
 }
+
+$manager = new Manager('Paolo', 'Duzioni', 38, 60000, rand(100, 999), 'Project Manager');
+
